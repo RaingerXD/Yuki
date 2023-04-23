@@ -1,6 +1,6 @@
 from pyrogram.errors import ChatAdminRequired, ChatWriteForbidden, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from fallenmusic import app
+from YukkiMusic import app
 from config import MUST_JOIN
 
 
