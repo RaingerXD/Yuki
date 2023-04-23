@@ -127,7 +127,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )  # Remember to give value in bytes
 
 # Chceckout https://www.gbmb.org/mb-to-bytes  for converting mb to bytes
- SET_CMD = ("SET_CMD", None)
+SET_CMDS = getenv("SET_CMDS", "False")
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @CilikSring_Bot
 STRING1 = getenv("STRING_SESSION", "BQBC4Dkw-3h9VNQtkIG48mOcFEzZRi7lN1tVG_lsgSS1gHa7A6_e6B-FTUrfmqrlVT8iDC5xd1BWAsP7flqoD6WtNGdp-0WMrf8SQXOZrq-ylNbr4WPbtjuRnBsjIdgOvmi9YIot4V_q6Zv8PrnZm5wBjmEy9Q7rXPHo9l4cpE0xPQarWuwiuDT3_n9nqrIb7ALbvwuck12sC6xOB4Pk5nfWpjJE0OINn0Uog-Gjo2GbHLlbXuUxVWbMZCbxPV9Wds4Rwzvzwg_hmpCr2DPJV-hvw_ojGAkcdYjlOCmnIoMMvxQaJl9dYIUJMrxtfQAEZf8Et1xB-7rW8zouX6chHvm-ZdfLbAA")
