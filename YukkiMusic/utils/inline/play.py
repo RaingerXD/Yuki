@@ -1,30 +1,32 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-present by TeamYukki@Github, < https://github.com/TeamYukki >.
 #
 # This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
+#
 
 import random
 
 from pyrogram.types import InlineKeyboardButton
 
 selections = [
-    "▁▄▂▇▄▅▄▅▃",
-    "▁▃▇▂▅▇▄▅▃",
-    "▃▁▇▂▅▃▄▃▅",
-    "▃▄▂▄▇▅▃▅▁",
-    "▁▃▄▂▇▃▄▅▃",
-    "▃▁▄▂▅▃▇▃▅",
-    "▁▇▄▂▅▄▅▃▄",
-    "▁▃▅▇▂▅▄▃▇",
-    "▃▅▂▅▇▁▄▃▁",
-    "▇▅▂▅▃▄▃▁▃",
-    "▃▇▂▅▁▅▄▃▁",
-    "▅▄▇▂▅▂▄▇▁",
-    "▃▅▂▅▃▇▄▅▃",
+    "RAINGER┅┅┅┅┅┅",
+    "┅RAINGER┅┅┅┅┅",
+    "┅┅RAINGER┅┅┅┅",
+    "┅┅┅RAINGER┅┅┅",
+    "┅┅┅┅RAINGER┅┅",
+    "┅┅┅┅┅RAINGER┅",
+    "┅┅┅┅┅┅RAINGER",
+    "RAINGER┅┅┅┅┅┅",
+    "┅RAINGER┅┅┅┅┅",
+    "┅┅RAINGER┅┅┅┅",
+    "┅┅┅RAINGER┅┅┅",
+    "┅┅┅┅RAINGER┅┅",
+    "┅┅┅┅┅RAINGER┅",
+    "┅┅┅┅┅┅RAINGER",
 ]
 
 
@@ -42,8 +44,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
+                text=_["S_B_9"], url=f"https://t.me/raingerproject",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
@@ -88,8 +89,7 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
+                text=_["S_B_9"], url=f"https://t.me/raingerproject",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
