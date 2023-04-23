@@ -368,7 +368,7 @@ black_8 : "Tidak Ada Obrolan Daftar Hitam"
 #videolimit
 vid_1 : "**Penggunaan:**\n/set_video_limit [Jumlah obrolan yang diizinkan] atau [Nonaktifkan]"
 vid_2 : "Silakan Gunakan Angka Numerik untuk Menetapkan Batas."
-vid_3 : "Batas Maksimum Panggilan Video Ditetapkan untuk {0} Obrolan."
+vid_3 : "Batas Maksimum Panggilan Video Ditetapkan untuk {0} Obrolan. Dan jika ingin tidak limit nobar di @raingersupport"
 vid_4 : "Panggilan Video Dinonaktifkan"
 
 #maintenance
