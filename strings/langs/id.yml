@@ -254,6 +254,7 @@ S_B_5 : "✚ Tambahkan ke Group"
 S_B_6 : "⚡ Repository"
 S_B_7 : "👨‍💻 Pemilik Bot"
 S_B_8 : "🔎 Menu Perintah."
+S_B_9 : "Channel"
 
 #Help 
 H_B_1 : "Perintah Admin"
