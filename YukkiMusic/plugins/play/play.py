@@ -34,6 +34,7 @@ from YukkiMusic.utils.inline.play import (livestream_markup,
 from YukkiMusic.utils.inline.playlist import botplaylist_markup
 from YukkiMusic.utils.logger import play_logs
 from YukkiMusic.utils.stream.stream import stream
+from YukkiMusic.utils.decorators.mustjoin import subcribe
 
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
@@ -45,6 +46,7 @@ PLAY_COMMAND = get_command("PLAY_COMMAND")
     & ~filters.edited
     & ~BANNED_USERS
 )
+@subcribe
 @PlayWrapper
 async def play_commnd(
     client,
