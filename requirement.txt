@@ -15,9 +15,6 @@ pykeyboard
 pyrogram==1.4.16
 python-dotenv
 pyyaml==5.3.1
-requests
-telegraph
-gpytranslate
 speedtest-cli
 spotipy
 tgcrypto
