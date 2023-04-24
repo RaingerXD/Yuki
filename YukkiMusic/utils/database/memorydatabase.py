@@ -478,7 +478,7 @@ async def save_video_bitrate(chat_id: int, bitrate: str):
 async def get_aud_bit_name(chat_id: int) -> str:
     mode = audio.get(chat_id)
     if not mode:
-        return "Low"
+        return "High"
     return mode
 
 
