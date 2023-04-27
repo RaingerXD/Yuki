@@ -2,7 +2,7 @@ aiofiles
 aiohttp
 asyncio
 dnspython
-ffmpeg-python
+ffmpeg-python==2.0.4
 gitpython
 hachoir
 heroku3
