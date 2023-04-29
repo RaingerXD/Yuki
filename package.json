@@ -1,5 +1,19 @@
 {
-  "engines": {
-    "node": ">=16.0"
-  }
+  "name": "ssoheroxyukkiloader",
+  "version": "1.0.0",
+  "description": "Deploy Yukki Music Bot For Heroku From Here With Loader ! Idea & Implemented By @SSOHERO",
+  "master": "bash start",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaingerXD/Yukki.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaingerXD/Yukki/issues"
+  },
+  "homepage": "https://github.com/RaingerXD/Yukki#readme"
 }
