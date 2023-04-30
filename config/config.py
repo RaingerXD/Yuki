@@ -12,7 +12,7 @@ API_ID = int(getenv("API_ID", "27025466"))
 API_HASH = getenv("API_HASH", "750ca688d4a6e58826e48d321ae4d498")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5950392081:AAF9s8jyq_XQ7a8yPqwLoeU7bAP_V1i1qeM")
+BOT_TOKEN = getenv("BOT_TOKEN", "5950392081:AAFQ2rlc_5A9zRqV-NbIX68wLY2-Ro9ABcU")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://StufCluster:StufCluster@stufcluster.ugxb0f7.mongodb.net/?retryWrites=true&w=majority")
@@ -130,8 +130,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", "False")
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @CilikSring_Bot
-STRING1 = getenv("STRING_SESSION", "BQBbhI2ed7miEiXmxol03NOzUSRPwqbZs1n4gnl0VqA712dzBMEqh9XWdDUCa-dPtrqzZMTyh2nTtOMqU7P5gUbKMwyzt1xxXKMKA5E916btguOpng9KQwHHUsmwfHs9p4vhM6YrxtNkiT7FidCEU1LL9-YXm9xQKYwgf-YTWS_8eNfWrsBs_EoTOtRj3LR8VOXaHyNQ2WBHoFJ-t6CcMaU7oJk8sf8xjl60zv4QWL8WaBsIP7W-Zf77V_wKbh6pwX8BecwJmM6Fuw-fxQbDeDO4XE195xwqhzFg57Pqv7RfTTVjcrRNFbxj7FIzlvVyDupCNvZbTV4eietzFuNFS6x8ZdfLbAA")
-STRING2 = getenv("STRING_SESSION2", "BQCime7ZgGaT8dJRji7JNS1VoWmkaFZyd_ZoNx_zi-F0j-kvEVqQFMAWezb6nFennpi4vq-l98BH8JjeBwcQPZQdZYKKRKnde5aJCRB5rtcFnUJCWKVlv25AVQ0xOF9HsX4c6uyD0IOts217RIpsYyAPOD4YZjsQVLI_qnKm7we-WYT6lfdX1BuOpMSHhTRXIki_Z8NIulKKY0gpYKFnwsqVrWOZjpSDFHdjOm9WqZaX8Jhzg6MaGuMHV0KtoCwuwpXPOyAQ27o0A3nKwrlps7zZAH2ZseGCqGs5EKQPus9cvS71sdy8OTncXIujNjrBqsYjWMhdjE0_d_EAjZPCXEdDequkBAA")
+STRING1 = getenv("STRING_SESSION", "BQChn7oJUefEf7WGatOTSditewbFY8KnBZPCi9zhQWJ-4nXDdSS1hlecuR-Nt7hUWwAtM4jsV1xy39wBYwN7PDua4yG9Pq5HqLy3quZD_ZZRGo92fo8gamDmYut_qytkeFGuqAO_Oj4SZXEfvUF4ThqMbb0fY01nmzd_gtd4XP2yHOjMUOTjEvPNJFQ5LTnCkLpR_GUMRYSCeRzk0OaNfMvbHpngg_Wjq8MVu9-xtaiMoTOap377RD8nmo2xT1ZnuxfRZXtJbnHaBjBTAyCwDqUOAlfJ8N09bwb_8gYxohNe9awVZoCx3NB7oumiZJmiT978QP54D7Gs44S-_kPgDYEDZdfLbAA")
+STRING2 = getenv("STRING_SESSION2", "BQCriDcIqXCSOYULH6kYlXlm9Gd-JAHmQ8ePEjhVKVNaahvm7O089QiuTj0T9RxlnLZyEh7ylZlV_Ge04by18cPl-NY9p5lGq_4R1_iJLB9UKx6qG9KZpKwlYgQFin_95JIvi8EtyTMPe9oeEfTbLEReQW-shjaPGKIIId0bCI_sfU_OhbKzsD-sk5Hheo3LS-W8tQUGSYiJHlQaf04rE7PFhxpOFe2jIWX-yYF8qLw1cOZ1KuEPKWHKFCDfM3ZS6x7AjQ55g4TBGkTW6ig-z2tgFSmGh5LnDp0uXDcTXVVkz0Pjjk4kC22eytK9YvlLXDVVRJ7mhuoND6HYRYBnOnguequkBAA")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
