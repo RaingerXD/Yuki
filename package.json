@@ -1,0 +1,19 @@
+{
+  "name": "yuki",
+  "version": "1.0.0",
+  "description": "Deploy",
+  "main": "keep_alive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaingerXD/Yuki.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaingerXD/Yuki/issues"
+  },
+  "homepage": "https://github.com/RaingerXD/Yuki#readme"
+}
